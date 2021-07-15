@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class GuessingGame {
     public static void main(String[] args) {
         int computerNumber = (int) (Math.random()*100 + 1);
+       // System.out.println("A random number has been generated...");
         System.out.println("A random number has been generated...");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a guess between 1 and 100");
